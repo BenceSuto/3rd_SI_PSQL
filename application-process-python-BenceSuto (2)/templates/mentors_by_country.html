@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div id="mentors">
+    {% for data in mentors %}
+    {{ data }}<br/>
+        <br/>
+    {% endfor%}
+</div>
+
+{% include 'footer.html' %}
+{% endblock %}
